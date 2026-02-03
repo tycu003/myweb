@@ -3,11 +3,12 @@
 <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
             <title>Document</title>
 </head>
 <body>
-            <?php
-                        echo date("Y-m-d");
-            ?>
+            <div class="text-5xl text-right p-3 text-red-300">
+            <?php echo '今天是' .date("Y-m-d")?>
+            </div>
 </body>
 </html>
