@@ -1,0 +1,12 @@
+# 環境設定
+.env
+
+# Composer
+/vendor/
+
+# 資料庫設定（避免帳密外洩）
+/config/db.php
+
+# OS
+Thumbs.db
+.DS_Store
